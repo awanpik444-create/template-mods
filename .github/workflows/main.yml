@@ -4,5 +4,5 @@ jobs:
   build:
     uses: geode-sdk/build-geode-mod/.github/workflows/build.yml@v1
     with:
-      subproject: default
+      working-directory: default
       platform: android64
